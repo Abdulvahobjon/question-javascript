@@ -68,6 +68,12 @@ i{
 }
 
 @media(max-width:768px){
+  .question-title{
+    font-size: 2rem;
+    margin: 2rem 0rem ;
+    text-align: center;
+  }
+  
   .question-item-title{
     font-size: 1.1rem;
   }
