@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+
+}
+
+.question-container{
+  min-height: 100vh;
+  width: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-title{
+  font-size: 3rem;
+  margin: 2rem 0rem ;
+}
+
+.question-item{
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+}
+
+.question-item-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-item-title{
+  font-size: 1.8rem;
+}
+.question-item-answer-text{
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+.question-item-answer{
+  max-height: 0;
+  overflow: hidden;
+  transition: all .6s;
+}
+.question-item-answer.active{
+  max-height: 500px;
+}
+
+i{
+  opacity: .8;
+  color: #ffa703;
+}
