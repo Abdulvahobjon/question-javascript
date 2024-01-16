@@ -15,7 +15,7 @@ body{
 
 .question-container{
   min-height: 100vh;
-  width: 900px;
+  max-width: 900px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;

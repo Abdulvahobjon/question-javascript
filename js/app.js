@@ -22,36 +22,25 @@ let dataQuestion = [
     text:"Bir qatorli izohlar uchun: -“//” ishlatiladi. Ko‘p qatorli izohlar uchun:-“/* ko‘p qatorli izoh uchun */” ishlatiladi."
   },
   {
-    id:1,
+    id:5,
     title:"<i>“===”</i> operatori deganda nimani tushunasiz?",
     text:"Bu operator qat'iy tenglik operatori deb ataladi."
   },
   {
-    id:1,
+    id:6,
     title:"<i>style/class</i> ni qanday o'zgartirishimiz kerak?",
     text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur, mollitia nesciunt id cumque, consequuntur quis ex nam, nostrum dolor sint saepe animi aliquid? Hic animi sit consequuntur labore recusandae culpa, quidem aperiam possimus."
   },
   {
-    id:1,
-    title:"What is JavaScript ?",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur, mollitia nesciunt id cumque, consequuntur quis ex nam, nostrum dolor sint saepe animi aliquid? Hic animi sit consequuntur labore recusandae culpa, quidem aperiam possimus."
+    id:7,
+    title:"<i>Unshift()</i> usuli deganda nimani tushunasiz?",
+    text:"unshift() massivning old qismiga massiv elementlarini qo‘shadi."
   },
   {
-    id:1,
-    title:"What is JavaScript ?",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur, mollitia nesciunt id cumque, consequuntur quis ex nam, nostrum dolor sint saepe animi aliquid? Hic animi sit consequuntur labore recusandae culpa, quidem aperiam possimus."
+    id:8,
+    title:"<i>Ekran obyektlari</i> deganda nimani tushunasiz? Tushuntirish.",
+    text:"Ekran ob'ekti joriy veb-sahifa ko'rsatiladigan brauzer ekrani haqida ma'lumot olish uchun ishlatiladi. U ko'rsatilgan ekranning o'lchamlari haqida ma'lumot beradi, masalan: width, height , availWidth , availHeight  , colorDepth , pixelDepth"
   },
-  {
-    id:1,
-    title:"What is JavaScript ?",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur, mollitia nesciunt id cumque, consequuntur quis ex nam, nostrum dolor sint saepe animi aliquid? Hic animi sit consequuntur labore recusandae culpa, quidem aperiam possimus."
-  },
-  {
-    id:1,
-    title:"What is JavaScript ?",
-    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur, mollitia nesciunt id cumque, consequuntur quis ex nam, nostrum dolor sint saepe animi aliquid? Hic animi sit consequuntur labore recusandae culpa, quidem aperiam possimus."
-  },
-
 ]
 let list = document.querySelector(".question-list");
 
