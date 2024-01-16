@@ -12,7 +12,10 @@ body{
   color: white;
 
 }
-
+.question{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .question-container{
   min-height: 100vh;
   max-width: 900px;
@@ -62,4 +65,15 @@ body{
 i{
   opacity: .8;
   color: #ffa703;
+}
+
+@media(max-width:768px){
+  .question-item-title{
+    font-size: 1.1rem;
+  }
+  .question-item-answer-text{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
 }
