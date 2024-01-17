@@ -3,6 +3,8 @@ ScrollReveal().reveal('.headline', {
   duration: 5100,
   reset: true
 });
+let a  = [23 , 23, 4,3]
+console.log(delete a[0]);
 let dataQuestion = [
   {
     id:1,
@@ -43,6 +45,26 @@ let dataQuestion = [
     id:8,
     title:"<i>Ekran obyektlari</i> deganda nimani tushunasiz? Tushuntirish.",
     text:"Ekran ob'ekti joriy veb-sahifa ko'rsatiladigan brauzer ekrani haqida ma'lumot olish uchun ishlatiladi. U ko'rsatilgan ekranning o'lchamlari haqida ma'lumot beradi, masalan: width, height , availWidth , availHeight  , colorDepth , pixelDepth"
+  },
+  {
+    id:9,
+    title:"<i>3+2+ “7”</i> javobi qanday bo'lishi kerak?",
+    text:"57"
+  },
+  {
+    id:10,
+    title:"Javascriptda <i>innerHTML</i> dan foydalanishning kamchiliklarini sanab bering.",
+    text:"Tez kunda ...."
+  },
+  {
+    id:11,
+    title:"<i>Ekran obyektlari</i> deganda nimani tushunasiz? Tushuntirish.",
+    text:"NULL qiymati yo'qlik yoki ob'ekt yo'qligini ko'rsatish uchun ishlatiladi."
+  },
+  {
+    id:12,
+    title:" <i>Delete</i> operatoridan nima maqsadda foydalaniladi?",
+    text:"JavaScript-da delete operator ob'ektdan xususiyatni olib tashlash uchun ishlatiladi. U massivdan elementni olib tashlash uchun ham ishlatilishi mumkin. Massivlar bilan foydalanilganda, u massivda teshik qoldiradi. Biroq, ob'ektlar bilan foydalanilganda, u belgilangan xususiyatni olib tashlaydi. "
   },
 ]
 let list = document.querySelector(".question-list");

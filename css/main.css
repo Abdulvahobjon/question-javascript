@@ -67,6 +67,13 @@ i{
   color: #ffa703;
 }
 
+.footer{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid white;
+}
+
 @media(max-width:768px){
   .question-title{
     font-size: 2rem;
