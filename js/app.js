@@ -1,5 +1,8 @@
 
-
+ScrollReveal().reveal('.headline', {
+  duration: 5100,
+  reset: true
+});
 let dataQuestion = [
   {
     id:1,
@@ -52,6 +55,7 @@ dataQuestion.forEach(function (item, index) {
 function createQuestionItem(item) {
   let questionItem = document.createElement("li");
   questionItem.classList.add("question-item");
+  questionItem.classList.add("headline");
   questionItem.innerHTML = `
     <div class="question-item-top">
       <h3 class="question-item-title">${item.title}</h3>
