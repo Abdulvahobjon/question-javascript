@@ -80,6 +80,11 @@ let dataQuestion = [
     title:"<i>let</i> , <i>var</i> , <i>const</i> haqida aytib bering ?",
     text:" var o'zgaruvchilarni hoisting qiladi va uni qiymati aniqlangan Undefined bo'ladi. var fuvtion scope bo'ladi va funksiya ichida yaratilgan var (ozgaruvchi) funksiyaning istagan joyida ishlatilishi mumkin.  var da bir xil nomli o'zgaruvchilarni yaratish mumkin. let hoisting bo'ladi lekin uni qiymati anqlanmagan. Let block scope bo'ladi va {}  ichidan tashqariga chiqib keta olmaydi. bir hil nomli o'zgaruvchilarni yaratish mukin emas. "
   },
+  {
+    id:15,
+    title:" <i>Undefined</i> va <i>Null</i> farqi?",
+    text:"Undefined - o'zgaruvchi qiymat berilmagan yoki o'zgaruvchilarning mavjud bo'lmaganligini ko'rsatib beradi. Null - qiymatning yoq ekanligini bildiradi.  O'zgaruvchini qiymatini bo'shatish uchun ham ishlatiladi ."
+  },
 ]
 let list = document.querySelector(".question-list");
 
