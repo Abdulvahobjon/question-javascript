@@ -76,7 +76,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  padding-top: 60px;
   margin-bottom: 100px;
 }
 .accordion {
@@ -145,6 +145,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .filter-btn{
   padding: 5px 20px;
@@ -207,4 +208,21 @@ body {
 }
 .hero-text {
   font-size: 14px;
+}
+
+@media (max-width:540px){
+  .hero {
+    padding-top: 100px;
+  }
+  .hero-container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .hero-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .hero-text {
+    font-size: 12px;
+  }
 }
