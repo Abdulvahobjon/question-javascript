@@ -1,3 +1,4 @@
+// Random 
 function shuffleArray(array) {
   const shuffledArray = [...array];
   function getRandomIndex(max) {
@@ -16,6 +17,8 @@ function shuffleArray(array) {
 var dataQuestionClone  = dataQuestion
 
 let filterBtn  = document.querySelectorAll('button')
+
+// glavniy 
 filterBtn.forEach(function(item, index){
   item.addEventListener('click' , function(){
     filterBtn.forEach(function(item, index){
@@ -31,6 +34,7 @@ filterBtn.forEach(function(item, index){
   })
 })
 
+// creat element 
 let accordion = document.querySelector(".accordion-row");
 function createItem(dataQuestionClone){
   accordion.innerHTML = ''
