@@ -21,7 +21,7 @@ let dataQuestion = [
   {
     id:4,
     title:"JavaScript-da <i>komentarya</i> qanday yaratasiz?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScript-da ikkita turi komentariya yaratish mumkin: <br /> <b>Bir qatorli komentariya:</b> Bu turi komentariya yaratish uchun // belgilaridan foydalaniladi. Bu belgilar qatorning oxiriga qo’yiladi va qatorning oxirigacha bo’lgan qism komentariya sifatida hisoblanadi. <br /> <b>Ko’p qatorli komentariya:</b> Bu turi komentariya yaratish uchun /* va */ belgilaridan foydalaniladi. Bu belgilar orasidagi barcha matn komentariya sifatida hisoblanadi. "
   },
 
   {
