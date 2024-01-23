@@ -3,19 +3,19 @@ let dataQuestion = [
   {
     id:1,
     title:"<i>JavaScript</i> nima?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScript (JS) yuqori darajali dasturlash tilidir. <br> JavaScript asosan veb-brauzerda ishlaydigan mijoz tomoni skriptlarini yaratish uchun ishlatiladi. Bu shuni anglatadiki, u serverda emas, balki foydalanuvchining kompyuterida bajariladi. "
   },
 
   {
     id:2,
     title:"JavaScript <i>ma'lumotlar turlari</i> qanday?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScript’da ma’lumotlar tiplari qiymatlariga qarab 2 ta turga bo’lindi, <b>Primitive</b> va <b>Non-primitive</b>. <br> <b>Primitive qiymatlarga:</b> 1. String 2. Number 3. Boolean 4. Null 5. Undefined 6. BigInt 7. Symbol <br> <b>Non-primitive:</b> 1. Object"
   },
 
   {
     id:3,
     title:"<i>Salbiy cheksizlik</i> deganda nimani tushunasiz?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"<b>Salbiy cheksizlik</b> (-Infinity) deganda - bu Number ma’lumot turlarining biri bo’lib, bu qiymatni bir sonning boshqa son ga bo’linish natijasida hosil bo’lishi mumkin, agar bo’linuvchi son 0 ga teng bo’lsa. <br /> Misol uchun, <mark> -1/0 </mark>   ifodasi <b>-Infinity</b> ni qaytaradi. "
   },
 
   {
