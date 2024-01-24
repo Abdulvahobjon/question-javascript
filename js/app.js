@@ -90,5 +90,3 @@ function removeOpen(index1) {
 }
 createItem(dataQuestionClone)
 
-
-ScrollReveal().reveal('.headline');
