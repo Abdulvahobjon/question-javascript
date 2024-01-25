@@ -27,24 +27,24 @@ let dataQuestion = [
   {
     id:5,
     title:"<i>“===”</i> operatori deganda nimani tushunasiz?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"Bu taqqoslash operatori. U ikki qiymatni <b>taqqoslaydi</b> va agar ular teng bo’lsa true , aks holda false qiymatini qaytaradi. Ammo, bu operator “==” dan farqli ravishda ishlaydi. “===” operatori qiymatlarni solishtirishdan oldin ularning turini ham tekshiradi. Shu tufayli bu operatori  <q>exact equality</q> deb  ataladi."
   },
 
   {
     id:6,
     title:"<i>style/class</i> ni qanday o'zgartirishimiz kerak?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"<b>Class ni o’zgartirish:</b> Elementning klassini o’zgartirish uchun <i>classList</i> obyektini ishlatishingiz mumkin. Bu obyektning add, remove, va toggle kabi usullari mavjud. <br /> <b>Style ni o’zgartirish:</b> Elementning stilini o’zgartirish uchun <i>style</i> obyektini ishlatishingiz mumkin. "
   },
 
   {
     id:7,
     title:"<i>Unshift()</i> usuli deganda nimani tushunasiz?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScriptda <b>unshift()</b> metodi massivning boshiga yangi elementlar qo’shish uchun ishlatiladi. Bu metod asl massivni o’zgartiradi va massivning yangi uzunligini qaytaradi."
   },
 
   {
     id:8,
-    title:"<i>Ekran obyektlari</i> deganda nimani tushunasiz? Tushuntirish.",
+    title:"<i>Ekran obyektlari</i> deganda nimani tushunasiz?",
     text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
   },
 
