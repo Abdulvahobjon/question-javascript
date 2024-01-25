@@ -44,20 +44,20 @@ let dataQuestion = [
 
   {
     id:8,
-    title:"<i>Ekran obyektlari</i> deganda nimani tushunasiz?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    title:"<i>BOM</i> deganda nimani tushunasiz?",
+    text:"JavaScript BOM, yoki <b>Browser Object Model</b>, brauzer obyektlar modeli,  <i>brauzerda interfeysni boshqarish</i> uchun JavaScript obyektlarini taqdim etadi. BOM brauzer va brauzerning xususiyatlariga oid ma'lumotlarni olish, o'zgartirish va boshqa amallarni bajarish uchun ishlatiladi. "
   },
 
   {
     id:9,
     title:"<i>3+2+ “7”</i> javobi qanday bo'lishi kerak?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"javob: <b>57</b> "
   },
 
   {
     id:10,
     title:"Javascriptda <i>innerHTML</i> dan foydalanishning kamchiliklarini sanab bering.",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"innerHTML dan foydalanish <b>HTML</b> va <b>XML</b> dokumentlari uchun har xil natijalar qaytarishi mumkin."
   },
 
   {
