@@ -62,67 +62,67 @@ let dataQuestion = [
 
   {
     id:11,
-    title:"<i>Ekran obyektlari</i> deganda nimani tushunasiz? Tushuntirish.",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    title:"<i>Optional chaining</i> nima ?",
+    text:"Optional chaining - biror obyektning biror <b>property</b> va <b>method’lariga</b> \“xavfsiz\” kirish usuli. Bu orqali kirilgan property yoki method agar yo’q bo’lsa bizga error emas, balki <b>undefined</b> qaytaradi. "
   },
 
   {
     id:12,
     title:" <i>Delete</i> operatoridan nima maqsadda foydalaniladi?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"<b>delete</b> operatori obyektdan berilgan xususiyatni <b>o’chiradi</b>."
   },
 
   {
     id:13,
     title:"<i>Object</i> nima ?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"“Object” - bu JavaScript ning <b>ma’lumot turlaridan</b> biri."
   },
 
   {
     id:14,
     title:"<i>Hoisting</i> nima ?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"Hoisting jsda ishlaydigan default qiymat bo'lib , u barcha declorationlarni alohida o'qib, ularni shu scope ichida eng tepaga ko'taradi. Bu orqali declorationlarni teparoqdaham ishlatsa bo'ladi (Biroq, faqat o'zgaruvchilar ko’tariladi, boshlang’ich qiymatlar emas). Asosan funksiyalarda ishlaganda foyda beradi. <br /> <br /> <b>Declaration’larga misol</b> - let, const, var, function, class "
   },{
 
     id:15,
     title:"<i>let</i> , <i>var</i> , <i>const</i> haqida aytib bering ?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScriptda var, let va const o’zgaruvchilarni e’lon qilish uchun ishlatiladi. Ular bir-biridan <b>scope</b>, o’zidagi ma’lumotni qay tarzda saqlay olishi bilan farqlanadi."
   },
 
   {
     id:16,
     title:"Nima uchun sizga <i>JSON</i> kerak ?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScript Object Notation - ma'lumotlar <b>almashinish</b> formati, ma'lumotlarni almashinishning oson usuli sifatida <b>mashhur</b> bo'lgan bir formatdir. <b>JSON</b> oddiy  <b>string</b>, <b>number</b>, <b>object</b> lar, <b>massivlar</b> va <b>boolean</b> qiymatlari qabul qiladi va ularni JavaScript object lariga moslashtiradi."
   },
 
   {
     id:17,
     title:" <i>BOM</i> nima ?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScript BOM, yoki \"Browser Object Model\", <b>brauzer obyektlar modeli</b>, brauzerda <b>interfeysni</b> boshqarish uchun JavaScript obyektlarini taqdim etadi. BOM brauzer va brauzerning xususiyatlariga oid <b>ma'lumotlarni olish</b>, <b>o'zgartirish</b> va boshqa amallarni bajarish uchun ishlatiladi."
   },
 
   {
     id:18,
     title:" <i>Undefined</i> va <i>Null</i> farqi?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"JavaScript tilida undefined va null ikkala qiymat ham <b>ma’noga ega bo’lmagan</b> qiymatlarni ifodalash uchun ishlatiladi, lekin ularning farqi bor. <br /> <br /> <b>Undefined:</b> O’zgaruvchi e’lon qilingan, lekin hali qiymati belgilanmagan. <br /> <b>Null:</b> Bu o’zgaruvchiga hech qanday qiymat yo’q deb belgilash uchun ishlatiladi. "
   },
 
   {
     id:19,
-    title:" setTimeout dan qanday foydalanish kerak ?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    title:" <i>setTimeout</i> dan qanday foydalanish kerak ?",
+    text:"JavaScript tilida setTimeout funksiyasi belgilangan <b>vaqt o’tgandan</b> so’ng funksiyani bajarish uchun ishlatiladi. Ushbu funksiya faqat <b>bir marta</b> bajariladi"
   },
 
   {
     id:20,
     title:"<i>Web Storage</i> nima ? Qanday turdagi storagelar mavjud?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"Web Storage - bu brauzerda ma'lumotni saqlash uchun ishlatiladigan bir texnologiya. Ular brauzerda foydalanuvchilarning ma'lumotlarini saqlash uchun xizmat qiladi va ular brauzer yopilsa ham saqlanadi. <br /> Web Storage ning ikkita turi mavjud: <b>Local Storage</b> va <b>Session Storage</b> "
   },
 
   {
     id:21,
     title:"<i>Session storage</i> va <i>Local storage</i>ni farqi nimada?",
-    text:"Maqul javobni bilsangiz adminga yuborishingiz mumkin."
+    text:"sessionStorage va localStorage ikkala turdagi Web Storage hisoblanadi, lekin ularning asosiy farqi <b>ma’lumotlarni saqlashda</b>. <br /> <br /> sessionStorage faqatgina <b>joriy brauzer oynasi</b> (yoki tab) uchun mavjud, ammo localStorage <b>barcha oynalar</b> uchun ham mavjud. Bu degani, agar siz localStorage’da ma’lumot saqlasangiz, shu ma’lumotni brauzer oynalarining barchasida ko’rishingiz mumkin. Ammo, agar siz sessionStorage’da ma’lumot saqlasangiz, shu ma’lumotni faqatgina shu oynada ko’rishingiz mumkin."
   },
 
   {
