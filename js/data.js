@@ -171,20 +171,20 @@ let dataQuestion = [
     id: 25,
     title: "<i>Promise</i>larni asosiy statelari qaysilar?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
     id: 26,
     title: "<i>Promise chain</i>ing nima?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
     id: 27,
     title: "null == 0 nimaga teng ?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: " <b>javob:</b> true ",
     level: "oddiy",
   },
 
@@ -192,7 +192,7 @@ let dataQuestion = [
     id: 28,
     title: "<i>Callback hell</i> nima?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
@@ -200,21 +200,21 @@ let dataQuestion = [
     title:
       "<i>Promise.race</i> va <i>Promise.all</i> metodlarining farqi nimada?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
     id: 30,
     title: "JavaScript <i>compiled</i> yoki <i>interpreted</i> tilmi?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
     id: 31,
     title: "<i>IIFE</i> nima?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
@@ -229,7 +229,7 @@ let dataQuestion = [
     title:
       "<i>Hoisting</i> nima? <i>Variable hoisting</i> va <i>function hoisting</i> qanday ishlaydi?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
@@ -281,28 +281,28 @@ let dataQuestion = [
     id: 40,
     title: "<i>Garbage collection</i> vazifasi va maqsadi nima ?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
     id: 41,
     title: "<i>this</i> kalit so’zi nima ?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
     id: 42,
     title: "<i>call</i>, <i>apply</i> va <i>bind</i> nima ?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
     id: 43,
     title: "<i>Map</i>, <i>Set</i>, <i>WeakMap</i> va <i>WeakSet</i> nima ?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "qiyin",
   },
 
   {
@@ -344,7 +344,7 @@ let dataQuestion = [
     id: 49,
     title: "<i>Constructor</i> functions nima ?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "o'rta",
   },
 
   {
