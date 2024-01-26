@@ -14,6 +14,14 @@ function shuffleArray(array) {
 
   return shuffledArray;
 }
+
+function filterLavel(datas , degree){
+  let newData = datas.filter(function(item){
+    return item.level == degree
+  })
+  return newData
+}
+
 var dataQuestionClone  = dataQuestion
 
 let filterBtn  = document.querySelectorAll('button')
@@ -32,7 +40,19 @@ filterBtn.forEach(function(item, index){
   filterBtn[1].addEventListener('click' , function(){
     createItem(shuffleArray(dataQuestion))
   })
+  filterBtn[2].addEventListener('click' , function(){
+    createItem(filterLavel(dataQuestion , "oddiy"))
+  })
+  filterBtn[3].addEventListener('click' , function(){
+    createItem(filterLavel(dataQuestion , "o'rta"))
+  })
+  filterBtn[4].addEventListener('click' , function(){
+    createItem(filterLavel(dataQuestion , "qiyin"))
+  })
+
 })
+
+
 
 // creat element 
 let accordion = document.querySelector(".accordion-row");
@@ -82,7 +102,7 @@ function removeOpen(index1) {
 
       let des = item2.querySelector(".description");
       des.style.height = "0px";
-      item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
+      item2.querySelector("i.fa-solid").classList.replace("fa-minus", "fa-plus");
     }
   });
 }
