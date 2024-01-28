@@ -208,8 +208,30 @@ body {
 }
 .hero-text {
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
+.hero-quiz-btn{
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color .3s , color .3s;
+  border: 1px solid #333;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero-quiz-btn.active{
+  background-color: #333;
+  color: white;
+}
+.hero-quiz-btn:disabled{
+  cursor: help;
+}
 @media (max-width:540px){
   .hero {
     padding-top: 100px;

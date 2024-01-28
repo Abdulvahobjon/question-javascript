@@ -151,7 +151,7 @@ let dataQuestion = [
     id: 22,
     title: "JavaScript <i>single threaded</i>  yoki <i>multi-threaded</i>?",
     text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
-    level: "oddiy",
+    level: "qiyin",
   },
   {
     id: 23,

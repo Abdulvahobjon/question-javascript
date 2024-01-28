@@ -24,7 +24,7 @@ function filterLavel(datas , degree){
 
 var dataQuestionClone  = dataQuestion
 
-let filterBtn  = document.querySelectorAll('button')
+let filterBtn  = document.querySelectorAll('.filter-btn')
 
 // glavniy 
 filterBtn.forEach(function(item, index){
