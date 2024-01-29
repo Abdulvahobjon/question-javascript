@@ -213,7 +213,7 @@ let dataQuestion = [
   {
     id: 31,
     title: "<i>IIFE</i> nima?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "IIFE - Immediately Invoked Function Expression yani e'lon qilinishi bilan ishga tushadigan funksiya. Ko'proq global scopedan qochish uchun ishlatiladi. ",
     level: "o'rta",
   },
 
