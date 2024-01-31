@@ -49,11 +49,12 @@ let dataQuestion = [
     level: "oddiy",
   },
 
+ 
   {
     id: 8,
-    title: "<i>BOM</i> deganda nimani tushunasiz?",
-    text: "JavaScript BOM, yoki <b>Browser Object Model</b>, brauzer obyektlar modeli,  <i>brauzerda interfeysni boshqarish</i> uchun JavaScript obyektlarini taqdim etadi. BOM brauzer va brauzerning xususiyatlariga oid ma'lumotlarni olish, o'zgartirish va boshqa amallarni bajarish uchun ishlatiladi. ",
-    level: "o'rta",
+    title: " <i>Delete</i> operatoridan nima maqsadda foydalaniladi?",
+    text: "<b>delete</b> operatori obyektdan berilgan xususiyatni <b>o’chiradi</b>.",
+    level: "oddiy",
   },
 
   {
@@ -78,11 +79,12 @@ let dataQuestion = [
     level: "qiyin",
   },
 
+
   {
     id: 12,
-    title: " <i>Delete</i> operatoridan nima maqsadda foydalaniladi?",
-    text: "<b>delete</b> operatori obyektdan berilgan xususiyatni <b>o’chiradi</b>.",
-    level: "oddiy",
+    title: "<i>BOM</i> deganda nimani tushunasiz?",
+    text: "JavaScript BOM, yoki <b>Browser Object Model</b>, brauzer obyektlar modeli,  <i>brauzerda interfeysni boshqarish</i> uchun JavaScript obyektlarini taqdim etadi. BOM brauzer va brauzerning xususiyatlariga oid ma'lumotlarni olish, o'zgartirish va boshqa amallarni bajarish uchun ishlatiladi. ",
+    level: "o'rta",
   },
 
   {
