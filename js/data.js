@@ -186,7 +186,7 @@ let dataQuestion = [
   {
     id: 27,
     title: "null == 0 nimaga teng ?",
-    text: " <b>javob:</b> true ",
+    text: " <b>javob:</b> false ",
     level: "oddiy",
   },
 
@@ -215,7 +215,7 @@ let dataQuestion = [
   {
     id: 31,
     title: "<i>IIFE</i> nima?",
-    text: "IIFE - Immediately Invoked Function Expression yani e'lon qilinishi bilan ishga tushadigan funksiya. Ko'proq global scopedan qochish uchun ishlatiladi. ",
+    text: "IIFE - Immediately Invoked Function Expression yani e'lon qilinishi bilan ishga tushadigan funksiya. Ko'proq global scopedan qochish uchun ishlatiladi.",
     level: "o'rta",
   },
 
