@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-body{
+body {
   min-height: 100vh;
   background: #e3f2fd;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,6 +16,65 @@ body{
   user-select: none;
 }
 
+/* header start */
+.header {
+  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fbf8f8;
+}
+.header-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 22px;
+  color: #f4c304;
+  font-weight: 900;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+.nav-link {
+  color: #333;
+  text-decoration-color: transparent;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  text-decoration-color: #333;
+}
+
+
+@media(max-width:540px){
+  .nav-link {
+    font-size: 12px;
+  }
+  .header-logo{
+    font-size: 16px;
+  }
+  .header-container{
+    padding-left: 10px ;
+    padding-right: 10px;
+  }
+}
+
+
+
+
+/* quiz main start */
 .quiz-container {
   background-color: #fff;
   border-radius: 10px;
@@ -25,18 +82,15 @@ body{
   width: 600px;
   overflow: hidden;
 }
-
-.quiz-header{
+.quiz-header {
   padding: 48px;
 }
-
 .quiz-question {
   padding: 20px;
   text-align: center;
   margin: 0;
 }
-
-.quiz-options-list{
+.quiz-options-list {
   list-style: none;
   padding: 0;
 }
@@ -45,13 +99,10 @@ body{
   font-size: 1.2rem;
   margin: 16px 0;
 }
-.quiz-options-answer{}
-
 .quiz-options-label {
   cursor: pointer;
 }
-
-.quiz-btn{
+.quiz-btn {
   background-color: #03cae4;
   color: white;
   width: 100%;
@@ -60,14 +111,12 @@ body{
   font-size: 1.1rem;
   padding: 1.3rem;
   border: none;
-  transition: background-color .3s linear;
+  transition: background-color 0.3s linear;
 }
-.quiz-btn:hover{
+.quiz-btn:hover {
   background-color: #04adc4;
 }
-.quiz-btn:focus{
+.quiz-btn:focus {
   outline: none;
   background-color: #44b927;
-  
 }
-

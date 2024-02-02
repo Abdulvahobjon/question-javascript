@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/quiz.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header class="header">
+      <div class="header-container">
+        <h1 class="header-logo">JavaScript</h1>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://t.me/A_Abdulvahob"
+              >Admin</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://t.me/abs_javascript"
+              >Telegram</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- quzi main start -->
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 class="quiz-question">Question test</h2>
+        <ul class="quiz-options-list">
+          <li class="quiz-options-item">
+            <input
+              type="radio"
+              name="answer"
+              id="a"
+              class="quiz-options-answer"
+            />
+            <label for="a" id="a_text" class="quiz-options-label">Answer</label>
+          </li>
+          <li class="quiz-options-item">
+            <input
+              type="radio"
+              name="answer"
+              id="b"
+              class="quiz-options-answer"
+            />
+            <label for="b" id="b_text" class="quiz-options-label">Answer</label>
+          </li>
+          <li class="quiz-options-item">
+            <input
+              type="radio"
+              name="answer"
+              id="c"
+              class="quiz-options-answer"
+            />
+            <label for="c" id="c_text" class="quiz-options-label">Answer</label>
+          </li>
+          <li class="quiz-options-item">
+            <input
+              type="radio"
+              name="answer"
+              id="d"
+              class="quiz-options-answer"
+            />
+            <label for="d" id="d_text" class="quiz-options-label">Answer</label>
+          </li>
+        </ul>
+      </div>
+      <button class="quiz-btn" id="submit">Submid</button>
+    </div>
+
+
+
+    <script src="./js/quizdata.js"></script>
+    <script src="./js/quiz.js"></script>
+  </body>
+</html>
