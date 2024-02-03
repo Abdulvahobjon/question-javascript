@@ -52,7 +52,9 @@ quizBtn.addEventListener("click", function () {
       loadQuiz();
     } else {
       if ((score / 10) * 9 < quizData.length) {
-        quiz.innerHTML = `<h2 class="quiz-resualt">Sizning javobingiz ${score}/ ${quizData.length}</h2>`;
+        quiz.innerHTML = `<div class="quiz-resualt">
+        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Eng yuqori daraja 🥇</h1>
+        </div>`;
         function happyFun() {
           const duration = 15 * 1000,
             animationEnd = Date.now() + duration,
