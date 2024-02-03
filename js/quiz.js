@@ -51,7 +51,7 @@ quizBtn.addEventListener("click", function () {
     if (currentQuiz < quizData.length) {
       loadQuiz();
     } else {
-      if ((score / 10) * 9 < quizData.length) {
+      if ((quizData.length / 100) * 90 <= score) {
         quiz.innerHTML = `<div class="quiz-resualt">
         <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Eng yuqori daraja 🥇</h1>
         </div>`;
@@ -89,8 +89,65 @@ quizBtn.addEventListener("click", function () {
           }, 250);
         }
         happyFun()
+      } else if((quizData.length / 100) * 75 <= score){
+        quiz.innerHTML = `<div class="quiz-resualt">
+        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>O'rta  daraja 🥈</h1>
+        </div>`;
+        function happyFun() {
+          const count = 200,
+          defaults = {
+            origin: { y: 0.7 },
+          };
+        
+        function fire(particleRatio, opts) {
+          confetti(
+            Object.assign({}, defaults, opts, {
+              particleCount: Math.floor(count * particleRatio),
+            })
+          );
+        }
+        
+        fire(0.25, {
+          spread: 26,
+          startVelocity: 55,
+        });
+        
+        fire(0.2, {
+          spread: 60,
+        });
+        
+        fire(0.35, {
+          spread: 100,
+          decay: 0.91,
+          scalar: 0.8,
+        });
+        
+        fire(0.1, {
+          spread: 120,
+          startVelocity: 25,
+          decay: 0.92,
+          scalar: 1.2,
+        });
+        
+        fire(0.1, {
+          spread: 120,
+          startVelocity: 45,
+        });
+        }
+        happyFun()
+      } else if((quizData.length / 100) * 60 <= score){
+        quiz.innerHTML = `<div class="quiz-resualt">
+        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>O'rta  daraja 🥉</h1>
+        </div>`;
       } else{
-        quiz.innerHTML = `<h2 class="quiz-resualt">Sizning javobingiz ${score}/ ${quizData.length}</h2>`;
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
+        quiz.innerHTML = `<div class="quiz-resualt">
+        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Darajangiz yoq 🤥</h1>
+        </div>`;
       }
     }
   }
