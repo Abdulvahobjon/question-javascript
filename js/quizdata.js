@@ -249,7 +249,7 @@ const quizData = [
   },
   {
     id: 28,
-    question: "!!''",
+    question: "!!' '",
     a: "true",
     b: "false",
     c: "NAN",

@@ -41,7 +41,7 @@ body {
   align-items: center;
 }
 
-.header-logo a{
+.header-logo a {
   font-size: 22px;
   color: #f4c304;
   font-weight: 900;
@@ -60,29 +60,24 @@ body {
   text-decoration-color: #333;
 }
 
-
-@media(max-width:540px){
+@media (max-width: 540px) {
   .nav-link {
     font-size: 12px;
   }
-  .header-logo{
+  .header-logo {
     font-size: 16px;
   }
-  .header-container{
-    padding-left: 10px ;
+  .header-container {
+    padding-left: 10px;
     padding-right: 10px;
   }
 }
-
-
-
 
 /* quiz main start */
 .quiz-container {
   max-width: 600px;
   width: 100%;
   background-color: #fff;
-  margin: 0 15px;
   border-radius: 8px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -137,32 +132,63 @@ body {
   outline: none;
   background-color: #44b927;
 }
-.quiz-resualt{
-  padding:30px;
+.quiz-resualt {
+  padding: 30px;
   text-align: center;
 }
 
-.footer{
+@media (max-width: 768px) {
+  .quiz-header {
+    padding: 24px 32px;
+  }
+  .quiz-question {
+    padding:10px 0px;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .quiz-options-item {
+    font-size: 16px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .quiz-options-label {
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s linear;
+    display: block;
+    width: 100%;
+  }
+}
+
+.footer {
   border-top: 1px solid #333;
   padding-top: 15px;
   padding-bottom: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-.footer-text{
+.footer-text {
   text-align: center;
-  font-size:16px;
+  font-size: 16px;
 }
 
-.footer-text a{
+.footer-text a {
   text-decoration-color: transparent;
-  transition: all .3s;
+  transition: all 0.3s;
   color: #333;
 }
-.footer-text a:hover{
+.footer-text a:hover {
   text-decoration-color: #333;
 }
 
-@media(max-width:768px){
-  .footer-text{
-   font-size: 12px;
+@media (max-width: 768px) {
+  .footer-text {
+    font-size: 12px;
   }
 }
