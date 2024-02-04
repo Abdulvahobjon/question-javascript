@@ -41,10 +41,11 @@ body {
   align-items: center;
 }
 
-.header-logo {
+.header-logo a{
   font-size: 22px;
   color: #f4c304;
   font-weight: 900;
+  text-decoration: none;
 }
 .nav-list {
   display: flex;
@@ -139,4 +140,29 @@ body {
 .quiz-resualt{
   padding:30px;
   text-align: center;
+}
+
+.footer{
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer-text{
+  text-align: center;
+  font-size:16px;
+}
+
+.footer-text a{
+  text-decoration-color: transparent;
+  transition: all .3s;
+  color: #333;
+}
+.footer-text a:hover{
+  text-decoration-color: #333;
+}
+
+@media(max-width:768px){
+  .footer-text{
+   font-size: 12px;
+  }
 }

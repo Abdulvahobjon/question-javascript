@@ -7,6 +7,13 @@ let c_text = document.querySelector("#c_text");
 let d_text = document.querySelector("#d_text");
 let quizBtn = document.querySelector("#submit");
 
+let dataNewTen = quizData.map(item=>{
+    let random = Math.floor(Math.random()* quizData.length)
+    return quizData[random]
+  }).slice(0, 10)
+console.log(dataNewTen);
+
+
 let currentQuiz = 0;
 let score = 0;
 
@@ -15,7 +22,7 @@ loadQuiz();
 function loadQuiz() {
   deselectAnswere();
 
-  const currentQuizData = quizData[currentQuiz];
+  const currentQuizData = dataNewTen[currentQuiz];
 
   quizQuestion.innerHTML = currentQuizData.question;
 
@@ -40,20 +47,25 @@ function getSelected() {
   return answer;
 }
 
+
+
 quizBtn.addEventListener("click", function () {
   const answer = getSelected();
   if (answer) {
-    if (answer == quizData[currentQuiz].correct) {
+    if (answer == dataNewTen[currentQuiz].correct) {
       score++;
     }
     currentQuiz++;
 
-    if (currentQuiz < quizData.length) {
+    if (currentQuiz < dataNewTen.length) {
       loadQuiz();
     } else {
-      if ((quizData.length / 100) * 90 <= score) {
+      setTimeout(function(){
+        window.location.href = 'https://www.javascript-savollar.uz/'
+      } , 3000)
+      if ((dataNewTen.length / 100) * 90 <= score) {
         quiz.innerHTML = `<div class="quiz-resualt">
-        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Eng yuqori daraja 🥇</h1>
+        <h2 >Siz ${dataNewTen.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Eng yuqori daraja 🥇</h1>
         </div>`;
         function happyFun() {
           const duration = 15 * 1000,
@@ -89,9 +101,9 @@ quizBtn.addEventListener("click", function () {
           }, 250);
         }
         happyFun()
-      } else if((quizData.length / 100) * 75 <= score){
+      } else if((dataNewTen.length / 100) * 70 <= score){
         quiz.innerHTML = `<div class="quiz-resualt">
-        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>O'rta  daraja 🥈</h1>
+        <h2 >Siz ${dataNewTen.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>O'rta  daraja 🥈</h1>
         </div>`;
         function happyFun() {
           const count = 200,
@@ -135,20 +147,23 @@ quizBtn.addEventListener("click", function () {
         });
         }
         happyFun()
-      } else if((quizData.length / 100) * 60 <= score){
-        quiz.innerHTML = `<div class="quiz-resualt">
-        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>O'rta  daraja 🥉</h1>
-        </div>`;
-      } else{
+      } else if((dataNewTen.length / 100) * 50 <= score){
         confetti({
           particleCount: 100,
           spread: 70,
           origin: { y: 0.6 },
         });
         quiz.innerHTML = `<div class="quiz-resualt">
-        <h2 >Siz ${quizData.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Darajangiz yoq 🤥</h1>
+        <h2 >Siz ${dataNewTen.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Boshlang'ich  daraja 🥉</h1>
+        </div>`;
+      } else{
+       
+        quiz.innerHTML = `<div class="quiz-resualt">
+        <h2 >Siz ${dataNewTen.length} ta dan  ${score} taga javob topdingiz.</h2> <h1>Darajangiz yoq 🤥</h1>
         </div>`;
       }
+
+     
     }
   }
 });
