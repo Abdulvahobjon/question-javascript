@@ -152,11 +152,11 @@ body {
     padding:10px 0px;
     text-align: center;
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
   }
   .quiz-options-item {
-    font-size: 16px;
+    font-size: 15px;
     margin: 12px 0;
     display: flex;
     align-items: center;
