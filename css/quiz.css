@@ -146,7 +146,7 @@ body {
 
 @media (max-width: 768px) {
   .quiz-header {
-    padding: 24px 32px;
+    padding: 24px 26px;
   }
   .quiz-question {
     padding:10px 0px;
