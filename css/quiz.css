@@ -41,6 +41,13 @@ body {
   align-items: center;
 }
 
+.header-logo {
+  font-size: 22px;
+  color: #f4c304;
+  font-weight: 900;
+  text-decoration: none;
+  display: flex;
+}
 .header-logo a {
   font-size: 22px;
   color: #f4c304;
