@@ -86,15 +86,6 @@ const quizData = [
     correct: "a",
   },
   {
-    id: 10,
-    question: "JavaScript-da try…catch bayonotining maqsadi nima?",
-    a: "Yangi funksiyani aniqlash uchun",
-    b: "O‘zgaruvchini e’lon qilish uchun",
-    c: "Istisnolar va xatolarni boshqarish uchun",
-    d: "Halqa yaratish uchun",
-    correct: "togrijavob",
-  },
-  {
     id: 11,
     question: "let raqam = 3; raqam === '3' ?",
     a: "true",
