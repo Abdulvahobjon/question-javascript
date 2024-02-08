@@ -238,7 +238,7 @@ let dataQuestion = [
     id: 34,
     title:
       "<i>Obyekt</i> hususiyatlarini qanday qilib o'zgarmas qilishimiz mumkin?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "JavaScriptda obyektning hususiyatlari o’zgarmas qilish uchun <b>Object.defineProperty</b> yoki <b>Object.defineProperties</b> metodlaridan foydalanish mumkin. Bu metodlar obyektning hususiyatlarini  o’zgartirish imkoniyatini cheklash uchun ishlatiladi. <br> Agar siz obyektning barcha hususiyatlarini o’zgarmas qilmoqchi bo’lsangiz,<b> Object.freeze</b> metodi yordamida buni amalga oshirishingiz mumkin: ",
     level: "oddiy",
   },
 
@@ -246,14 +246,14 @@ let dataQuestion = [
     id: 35,
     title:
       "<i>Const</i> yordamida yasalgan obyektni o'zgartirish imkoni bormi?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "Ha bor.",
     level: "oddiy",
   },
 
   {
     id: 36,
-    title: "<i>O'zgaruvchilar</i> turlari va farqlari haqida gapiring.",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    title: "<i>Event delegation </i> nima ?",
+    text: "<b>Event delegation</b> - bu texnika. Biz hodisani boshqarishni ota elmentga beramiz. Biz alohida elmentlarga <i>addEventListener</i> bermaymiz va bu royxat lar bilan ishlaganda juda qulaylik beradi.",
     level: "oddiy",
   },
 
