@@ -151,8 +151,8 @@ let dataQuestion = [
 
   {
     id: 22,
-    title: "JavaScript <i>single threaded</i>  yoki <i>multi-threaded</i>?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    title: "JavaScript <i>single threaded</i>  yoki  <i>multi-threaded</i> ?",
+    text: "JavaScript <b>single-threaded</b> dasturlash tili hisoblanadi. Bu degani, JavaScriptda bir vaqtning o’zida faqat <i>bitta vazifani bajarishi</i> mumkin.",
     level: "qiyin",
   },
   {
@@ -164,8 +164,8 @@ let dataQuestion = [
 
   {
     id: 24,
-    title: "Qaysi yo'llar bilan <i>asinxron</i> kod yozishimiz mumkin?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    title: "<i>Splice (array method)</i> — ning vazifasi nima ?",
+    text: "<b>splice() </b> —  metodi massiv elementlarini <i>qo’shish</i>, <i>o’chirish</i> yoki <i>almashtirish</i> uchun ishlatiladi.",
     level: "oddiy",
   },
 
