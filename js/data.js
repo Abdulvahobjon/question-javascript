@@ -409,14 +409,14 @@ let dataQuestion = [
   {
     id: 58,
     title: "<i>Nullish</i> operator nima ?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "Nullish operatori <b> (??)</b> ikkita operandni qabul qiladi va birinchi operand <i>null</i> yoki <i>undefined</i> bo’lsa, ikkinchi operandni qaytaradi.",
     level: "oddiy",
   },
 
   {
     id: 59,
     title: "<i>for loop</i>  nima ?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "<b>for loop</b> bir nechta marta kod blokini bajarish uchun ishlatiladi",
     level: "oddiy",
   },
 
@@ -430,14 +430,14 @@ let dataQuestion = [
   {
     id: 61,
     title: "<i>Distructure</i> nima ?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "<b>“Destructuring”</b>  sintaksisi, massivlardan qiymatlarni yoki obyektlardan xususiyatlarni alohida o’zgaruvchilarga ajratishga imkon beradi.",
     level: "oddiy",
   },
 
   {
     id: 62,
     title: "<i>Scope</i> nima?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "<b>“Scope”</b> (huddud) o’zgaruvchilar e’lon qilingan va ularga murojaat qilish mumkin bo’lgan <i>kontekst</i> yoki <i>muhitni</i> anglatadi",
     level: "oddiy",
   },
 
@@ -542,7 +542,7 @@ let dataQuestion = [
   {
     id: 77,
     title: "<i>true === 'true'</i>",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "javob: <b>false</b>",
     level: "oddiy",
   },
 
@@ -565,7 +565,7 @@ let dataQuestion = [
   {
     id: 80,
     title: "<i>1+2+'3'</i>",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "javob: <b>'33'</b>",
     level: "oddiy",
   },
 
@@ -579,7 +579,7 @@ let dataQuestion = [
   {
     id: 82,
     title: "<i>NaN</i> nima ?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: " <b>Not a Number</b> (son emas) degani. ",
     level: "oddiy",
   },
 
@@ -593,7 +593,7 @@ let dataQuestion = [
   {
     id: 84,
     title: "<i>this === window</i>",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "<b>Javob:</b> true ",
     level: "oddiy",
   },
 
@@ -687,21 +687,21 @@ let dataQuestion = [
   {
     id: 96,
     title: "Javascriptdagi <i>**</i> operatori vazifasi.",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "Sonlarni darajaga ko'tarishlik uchun ishlatiladi.",
     level: "oddiy",
   },
 
   {
     id: 97,
     title: "<i>isNaN('abs_javaScript')</i> ",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "<b>Javob:</b> true ",
     level: "oddiy",
   },
 
   {
     id: 98,
     title: "<i>100</i> gacha bo'lgan raqamlardan <i>random</i> qiling.",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    text: "<b>Javob:</b> Math.floor(Math.random() * 100); ",
     level: "oddiy",
   },
 
@@ -714,8 +714,8 @@ let dataQuestion = [
 
   {
     id: 100,
-    title: "<i>Matn</i> - qanday data type hisoblanadi ?",
-    text: "Maqul javobni bilsangiz adminga yuborishingiz mumkin.",
+    title: "<i>Math</i> - qanday data type ga kiradi ?",
+    text: "<b>Javob:</b> Object",
     level: "oddiy",
   },
 ];
