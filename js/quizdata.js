@@ -310,4 +310,13 @@ const quizData = [
     d: "0",
     correct: "c",
   },
+  {
+    id: 36,
+    question: "Boolean('error')",
+    a: "true",
+    b: "false",
+    c: "error",
+    d: "0",
+    correct: "a",
+  },
 ];
