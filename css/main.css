@@ -1,0 +1,249 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: #e3f2fd;
+  user-select: none;
+}
+
+.header {
+  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fbf8f8;
+}
+.header-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 22px;
+  color: #f4c304;
+  font-weight: 900;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+.nav-link {
+  color: #333;
+  text-decoration-color: transparent;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  text-decoration-color: #333;
+}
+
+
+@media(max-width:540px){
+  .nav-link {
+    font-size: 12px;
+  }
+  .header-logo{
+    font-size: 16px;
+  }
+  .header-container{
+    padding-left: 10px ;
+    padding-right: 10px;
+  }
+}
+
+
+
+
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  margin-bottom: 100px;
+}
+.accordion {
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.accordion .accordion-content {
+  margin: 10px 0;
+  border-radius: 4px;
+  background: #fff7f0;
+  border: 1px solid #ffd6b3;
+  overflow: hidden;
+}
+.accordion-content:nth-child(2n) {
+  background-color: #f0faff;
+  border-color: #cceeff;
+}
+.accordion-content:nth-child(3n) {
+  background-color: #fff0f3;
+  border-color: #ffccd6;
+}
+.accordion-content:nth-child(4n) {
+  background-color: #f0f0ff;
+  border-color: #ccccff;
+}
+.accordion-content.open {
+  padding-bottom: 10px;
+}
+.accordion-content header {
+  display: flex;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s linear;
+}
+.accordion-content.open header {
+  min-height: 35px;
+}
+.accordion-content header .title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.accordion-content header i {
+  font-size: 15px;
+  color: #333;
+}
+.accordion-content .description {
+  height: 0;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  padding: 0 15px;
+  transition: all 0.2s linear;
+}
+
+
+.filter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.filter-btn{
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color .3s , color .3s;
+}
+
+.filter-btn.active{
+  background-color: #333;
+  color: white;
+}
+.filter-btn:disabled{
+  cursor: help;
+}
+.footer{
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer-text{
+  text-align: center;
+  font-size:16px;
+}
+
+.footer-text a{
+  text-decoration-color: transparent;
+  transition: all .3s;
+  color: #333;
+}
+.footer-text a:hover{
+  text-decoration-color: #333;
+}
+
+@media(max-width:768px){
+  .footer-text{
+   font-size: 12px;
+  }
+}
+
+
+
+.hero {
+  padding-top: 100px;
+
+}
+.hero-container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.hero-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.hero-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.hero-quiz-btn{
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color .3s , color .3s;
+  border: 1px solid #333;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero-quiz-btn.active{
+  background-color: #333;
+  color: white;
+}
+.hero-quiz-btn:disabled{
+  cursor: help;
+}
+@media (max-width:540px){
+  .hero {
+    padding-top: 100px;
+  }
+  .hero-container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .hero-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .hero-text {
+    font-size: 12px;
+  }
+}
