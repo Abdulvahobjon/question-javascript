@@ -110,3 +110,4 @@ function removeOpen(index1) {
 }
 createItem(dataQuestionClone)
 
+// 
